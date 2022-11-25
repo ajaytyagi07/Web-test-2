@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(#000000, black);
+    opacity: 90%;
+}
+.head{
+    height: 34px;
+    width:33px;
+    display: inline-block;
+}
+.spotify{
+    display: inline-block;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.6px;
+    cursor: pointer
+}
+
+nav li {
+    padding: 0px 21px;
+    display: inline-block;
+    list-style: none;
+   
+}
+
+a{
+    
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: none;
+}
+.navbar li a:hover {
+    color: #13b82f;
+    transition: all 0.5s ease 0s;
+}
+
+
+.FIRST{
+    background-color: #c00fe4;
+    display: flex;
+    
+}
+
+.Hero{
+    padding-top: 5%;
+    padding-left: 13%;
+}
+.Hero-TEXT{
+   
+    padding-top: 18%;
+    padding-left: 6%;
+    color: white;
+    font-size: 33px;
+}
+
+.btn{
+    margin-top: 6%;
+    padding: 6%;
+    border:none;
+    font-weight: bold;
+    border-radius: 35px;
+    
+}
+
+.btn:hover{
+    font-size: 18px;
+}
+    </style>
+</head>
+
+<body>
+   
+    <header class="header">
+        <div class="logo">
+            <img class="head" src="LOGO.jpeg" alt="spotify">
+            <p class="spotify">Spotify</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#premium">Premium</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#login">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <section class="FIRST">
+        <div class="Hero">
+            <img class="ip-img" src="PHONE.jpeg" alt="dummy">
+        </div>
+        <div class="Hero-TEXT">
+            <h1>Play millions of songs and podcasts,for free.</h1>
+            <button class="btn">GET SPOTIFY FREE</button>
+        </div>
+    </section>
+  
+</body>
+
+</html>
